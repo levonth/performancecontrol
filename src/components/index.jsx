@@ -1,0 +1,8 @@
+export { default as BackgroundContainer } from './BackgroundContainer'
+export { default as Header } from './Header'
+export { default as Search } from './Search'
+export { default as Footer } from './Footer'
+export { default as Started } from './Started'
+export { default as Performance } from './Performance'
+export { default as Details } from './Details'
+export { default as Banner } from './Banner'

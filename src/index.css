@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.min-height{
+    height: calc((var(--vh, 1vh) * 100) - 9rem);
+}
+
+.h-custom{
+    height: calc(var(--vh, 1vh) * 100)
+}
+
+.skeleton {
+    animation: skeleton-loading 0.2s linear infinite alternate;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background-color: hsl(200, 20%, 80%);
+    }
+    100% {
+      background-color: hsl(200, 20%, 95%);
+    }
+  }
+  
+  .skeleton-text {
+    width: 100%;
+    height: 0.7rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+
+  .triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid white;
+  }
+
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #FFFFFF80;
+    border-radius: 1rem;
+}
