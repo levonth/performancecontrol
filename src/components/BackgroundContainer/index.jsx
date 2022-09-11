@@ -13,6 +13,7 @@ const BackgroundContainer = (props) => {
   const [imageLinkField, setImageLinkField] = useState()
 
   const handleConfirm = ()=>{
+    setDisplayOverlay("z-1");
     localStorage.setItem('user_image', imageLinkField)
     setDisplayInsertImageModal(false)
   }

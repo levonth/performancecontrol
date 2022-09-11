@@ -8,6 +8,9 @@
       content="Web site created using create-react-app"
     />
     <script>
+      if (location.protocol !== "https:") {
+        location.protocol = "https:";
+      }
       let vh = window.innerHeight * 0.01;
       document.documentElement.style.setProperty('--vh', `${vh}px`);
       window.addEventListener('resize', () => {
@@ -16,6 +19,7 @@
       });
     </script>
     <title>Performance Control</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4987858123038601" crossorigin="anonymous"></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

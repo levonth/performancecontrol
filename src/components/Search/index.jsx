@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useContextHook } from "../../hooks/contexts";
 import RenderRecents from "./RenderRecents";
 import RenderQueried from "./RenderQueried";
-import Banner from "../Banner";
+/* import Banner from "../Banner"; */
 
 import dayjs from "dayjs";
 import { useNavigate } from "react-router-dom";
@@ -58,7 +58,7 @@ const Search = () => {
     <>
       <div className="w-full max-w-[800px] min-height">
         <div className="w-full h-full flex flex-col justify-center items-center overflow-scroll pb-16">
-          <Banner />
+   {/*        <Banner /> */}
           <p className="mt-20 text-base font-bold text-white">
           OPA, O QUE VAMOS FAZER AGORA?
           </p>

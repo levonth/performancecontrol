@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useLayoutEffect } from "react";
-import Banner from "../Banner";
+/* import Banner from "../Banner"; */
 import { RiVipCrownFill } from "react-icons/ri";
 import { RiFireFill } from "react-icons/ri";
 import { useContextHook } from "../../hooks/contexts";
@@ -148,7 +148,7 @@ const Performance = () => {
       <div className="relative w-full max-w-[800px] min-height flex flex-col justify-center items-center overflow-scroll">
         <div className="w-full h-full">
           <div className="w-full h-full flex-col justify-center items-center">
-            <Banner />
+{/*             <Banner /> */}
             <div className="w-full h-auto flex justify-center items-center">
               <div className="relative w-[500px] h-[275px] sm:h-[200px] pl-3 flex flex-row justify-center items-center overflow-hidden mt-10">
                 <div className="w-full absolute flex justify-center items-center">

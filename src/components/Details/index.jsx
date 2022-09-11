@@ -2,7 +2,7 @@ import RenderRecentsDetails from "./RenderRecentsDetails"
 import dayjs from "dayjs"
 import { useContextHook } from "../../hooks/contexts"
 import RenderMonths from './RenderMonths'
-import Banner from "../Banner"
+/* import Banner from "../Banner" */
 import { useState, useEffect } from 'react'
 
 const Details = () => {
@@ -52,7 +52,7 @@ const Details = () => {
                 TEMPO
               </p>
             </div>
-            <Banner />
+{/*             <Banner /> */}
             { displayRecents &&
               <RenderRecentsDetails />
             }
